@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Yelp Metacritic",
+  "description": "get reviews",
+  "version": "0.0.1",
+  "page_action": {
+    "default_icon": "img/img.png",
+    "default_title": "Yelp",
+    "default_popup": "views/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "<all_urls>"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "js/bg/background.js"
+    ]
+  }
+}

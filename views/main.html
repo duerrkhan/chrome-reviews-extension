@@ -1,0 +1,8 @@
+<label for='business'></label>
+<input id='business' type='text' ng-model='business'>
+<button ng-click='yelpClick()'>OK</button>
+
+<h1>Result</h1>
+<ul>
+  <li ng-repeat='(key,value) in yelpInfo'>{{key}}: {{value}}</li>
+</ul>
